@@ -1,14 +1,15 @@
-```md data
+```
+md data
 md data\local
 md data\local\dao
 md data\local\entity
 md data\remote\api
 md data\remote\dto
-md data\remote\repository
+md data\repository
 md data\mappers
 
 md di
-touch di\AppModule.kt
+copy nul di\AppModule.kt > nul
 
 md domain
 md domain\util
@@ -21,4 +22,5 @@ md presentation\util
 md presentation\activity
 md presentation\viewModel
 md presentation\screen
-md presentation\component```
+md presentation\component
+```
